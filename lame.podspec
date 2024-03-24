@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
   LAME is a high quality MPEG Audio Layer III (MP3) encoder licensed under the LGPL.
                        DESC
 
-  s.homepage         = 'https://github.com/pro100andrey/lame'
+  s.homepage         = 'https://github.com/areeudh-q/lame'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Andrey Ivanov' => 'this.andrey@gmail.com' }
-  s.source           = { :git => 'https://github.com/pro100andrey/lame.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/areeudh-q/lame.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '12.0'
   s.tvos.deployment_target = '12.0'
